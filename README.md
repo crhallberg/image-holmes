@@ -19,3 +19,7 @@ This is used for both initializing with a first image and replacing the image (d
 ## About the Author
 
 [Chris Hallberg](http://www.crhallberg.com) is a graduate assistant and Javascript ninja. This is his first github repository so he whole heartedly thanks you for coming by! He also likes talking in third-person.
+
+## Other Credits
+
+ * Arrow images from Wikipedia (temporary)
