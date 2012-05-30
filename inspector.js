@@ -123,16 +123,24 @@
           }
         });
       }
-      $('.zoom-set button',elem).click(function () {    // zoom to typed level
+      $('.zoom-set button',elem)
+        .unbind('click') 
+				.click(function () {    // zoom to typed level
           methods.setZoom(elem,$('#new-zoom-level').val()/100,state);
         });
-      $('.zoom_level span',elem).click(function() {          // clicking the percent opens zoom bubble
+      $('.zoom_level span',elem)
+        .unbind('click') 
+				.click(function() {          // clicking the percent opens zoom bubble
           $('.zoom-set',elem).toggle();
         });
-      $('.zoom_level .plus',elem).click(function() {         // zoom in button
+      $('.zoom_level .plus',elem)
+        .unbind('click') 
+				.click(function() {         // zoom in button
           methods.setZoom(elem,state.zoom*1.5,state);
         })
-      $('.zoom_level .minus',elem).click(function() {        // zoom out button
+      $('.zoom_level .minus',elem)
+        .unbind('click') 
+				.click(function() {        // zoom out button
           methods.setZoom(elem,state.zoom*.5,state);
         })
     },
