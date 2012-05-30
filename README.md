@@ -14,7 +14,7 @@ This plugin has only one function:
 	$(container).inspector(img-src);
                  ^^^^^^^^^
 				 
-This is used for both initializing with a first image and replacing the image (don't worry, doesn't reinitialize).
+This is used for both initializing with a first image and replacing the image (don't worry, doesn't reinitialize). As of this post, the plugin has only been tested with divs, but it's assumed this will work with any element that displays as a block. The container does not need to contain anything special, or anything at all!
 
 ## About the Author
 
