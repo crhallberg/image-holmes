@@ -6,8 +6,11 @@ Image Holmes was created to fill the apparent gap that advanced image viewers ei
  * [jQuery UI](http://www.jqueryui.com)
  * [mousewheel plugin](https://github.com/brandonaaron/jquery-mousewheel) by [Brandon Aaron](http://www.brandonaaron.net)
  * img-rotate plugin by [Austen Hoogen](http://www.austenhoogen.com)
+ * inspector.css
  
 ## Using Holmes
+
+You need to include the dependent scripts and the included stylesheet.
 
 This plugin has only one function:
 
