@@ -29,12 +29,13 @@
  
  - Alpha -
  * Version 0.1          : 12 Sep 2011 // initial design
+
+=== KNOWN BUGS ===
+ * Enormous images don't render as a map
+ * Zooming while dragging causes the drag handle to misplace
+ * IE: refreshing does not re-render image. At this point, blaming IE because it doesn't make sense
+ * IE: zooming all the way in while the image is rotated, sets the image back to unrotated, but not the drag-master
  
 === TO DO ===
  * Reduce/Integrate dependencies
  * Mobile access o.O
-
-=== KNOWN BUGS ===
- * Zooming while dragging causes the drag handle to misplace
- * IE: refreshing does not re-render image. At this point, blaming IE because it doesn't make sense
- * IE: zooming all the way in while the image is rotated, sets the image back to unrotated, but not the drag-master
