@@ -1,7 +1,7 @@
 === CHANGELOG ===
 = by crhallberg =
 
- * Version 2.0b3 : 30 May 2012     // Map offset bugs
+ * Version 2.0b4 : 30 May 2012     // Map offset bugs
  * Version 2.0b3 : 25 May 2012     // Fixed image rebinding bug
  * Version 2.0b2 : 31 January 2012 // Started adding mobile support
  * Version 2.0b1 : 19 October 2011 // FF bounding problems
@@ -35,7 +35,6 @@
  * Mobile access o.O
 
 === KNOWN BUGS ===
- * Inital pane location off-center
  * Zooming while dragging causes the drag handle to misplace
  * IE: refreshing does not re-render image. At this point, blaming IE because it doesn't make sense
  * IE: zooming all the way in while the image is rotated, sets the image back to unrotated, but not the drag-master

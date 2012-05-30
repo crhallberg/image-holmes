@@ -12,16 +12,6 @@
  * Version 2.0   : 18 October 2011 // Major rewrite of bounding code :)
  */
  
-/* Full Changelog on Bottom */
-
-/**
- * KNOWN BUGS
- *  - Inital pane location off-center
- *  - Scrolling while zooming causes the drag handle to misplace
- *  - IE: refreshing does not re-render image. At this point, blaming IE because it doesn't make sense
- *  - IE: zooming all the way in while the image is rotated, sets the image back to unrotated, but not the drag-master
- */
- 
 (function($){
   var methods = {
     init : function(elem) {
@@ -454,25 +444,3 @@
     return this;
   }
 })(jQuery);
-
-/* CHANGELOG
- * ---------
- * Version 1.4          : 18 October 2011   // Bug fixes
- * Version 1.3          :  6 October 2011   // Map dragging
- * Version 1.2          :  6 October 2011   // IE rotation bug fixed
- * Version 1.1          :  5 October 2011   // Position map
- * Version 1.0          : 29 September 2011 // Now fully IE compatible.
- > - Release Candidate - 
- * Version 0.5   (rc7)  : 28 September 2011 // Now IE compatible.
- * Version 0.4.2 (rc6)  : 27 September 2011 // can no longer select zoom_level,
-                                               can no longer scroll with dragging
- * Version 0.4.1 (rc5)  : 27 September 2011 // fixed loading error while rotated
- * Version 0.4   (rc4)  : 27 September 2011 // fixed multiple call bug
- * Version 0.3.2 (rc3)  : 27 September 2011 // added zoom buttons
- * Version 0.3.1 (rc2)  : 27 September 2011 // fixed zooming bug
- * Version 0.3   (rc1)  : 22 September 2011 // zooming bubble
- > - Beta -
- * Version 0.2          : 18 September 2011 // added rotation
- > - Alpha -
- * Version 0.1          : 12 September 2011 // initial design
- */
