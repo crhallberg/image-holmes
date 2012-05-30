@@ -64,7 +64,7 @@
         });
       $(window)
         .unbind('load resize scroll')
-				.load(function() {
+        .load(function() {
           methods.setDrag($('.doc',elem),$(elem),state);
         })
         .resize(function() {
@@ -90,7 +90,7 @@
         });
       $('.turn_left',elem)
         .unbind('click') 
-				.click(function() {           // rotate image counter-clockwise
+        .click(function() {           // rotate image counter-clockwise
           state.angle -= 90;
           $(elem).find('.doc,.doc_map img').rotate(state.angle);
           // center
@@ -99,7 +99,7 @@
         })
       $('.turn_right',elem)
         .unbind('click') 
-				.click(function() {          // rotate image clockwise
+        .click(function() {          // rotate image clockwise
           state.angle += 90;
           $(elem).find('.doc,.doc_map img').rotate(state.angle);
           // center
@@ -125,22 +125,22 @@
       }
       $('.zoom-set button',elem)
         .unbind('click') 
-				.click(function () {    // zoom to typed level
+        .click(function () {    // zoom to typed level
           methods.setZoom(elem,$('#new-zoom-level').val()/100,state);
         });
       $('.zoom_level span',elem)
         .unbind('click') 
-				.click(function() {          // clicking the percent opens zoom bubble
+        .click(function() {          // clicking the percent opens zoom bubble
           $('.zoom-set',elem).toggle();
         });
       $('.zoom_level .plus',elem)
         .unbind('click') 
-				.click(function() {         // zoom in button
+        .click(function() {         // zoom in button
           methods.setZoom(elem,state.zoom*1.5,state);
         })
       $('.zoom_level .minus',elem)
         .unbind('click') 
-				.click(function() {        // zoom out button
+        .click(function() {        // zoom out button
           methods.setZoom(elem,state.zoom*.5,state);
         })
     },
@@ -373,9 +373,9 @@
         miHeight = mapImg.width();
         picWidth = picHeight;
         picHeight = $(pic).width();
-				var diff = Math.abs(miWidth-miHeight)/2;
-				miOffset.left += diff;
-				miOffset.top  -= diff;
+        var diff = Math.abs(miWidth-miHeight)/2;
+        miOffset.left += diff;
+        miOffset.top  -= diff;
       }
       
       // position and width percents
