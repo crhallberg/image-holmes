@@ -1,15 +1,21 @@
 ## Image Holmes
 
-Image Holmes was created to fill the apparent gap that advanced image viewers either zoom OR rotate, not both. Thus!
+Image Holmes was created to fill the apparent gap that advanced image viewers either zoom OR rotate, not both. Thus! Created for the [VuFind](http://www.vufind.org) Open Source Project.
 
 ## Dependencies
- * [jQuery UI](http://www.jquery.com)
- * mousewheel plugin by [Brandon Aaron](http://www.brandonaaron.net)
+ * [jQuery UI](http://www.jqueryui.com)
+ * [mousewheel plugin](https://github.com/brandonaaron/jquery-mousewheel) by [Brandon Aaron](http://www.brandonaaron.net)
  * img-rotate plugin by [Austen Hoogen](http://www.austenhoogen.com)
  
-## Code Test
+## Using Holmes
 
-Here is some code I hope:
+This plugin has only one function:
 
-	Code formatting test
-	return true;
+	$(container).inspector(img-src);
+                 ^^^^^^^^^
+				 
+This is used for both initializing with a first image and replacing the image (don't worry, doesn't reinitialize).
+
+## About the Author
+
+[Chris Hallberg](http://www.crhallberg.com) is a graduate assistant and Javascript ninja. This is his first github repository so he whole heartedly thanks you for coming by! He also likes talking in third-person.
