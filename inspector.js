@@ -91,7 +91,7 @@
       $('.turn_left',elem)
         .unbind('click') 
         .click(function() {           // rotate image counter-clockwise
-          state.angle -= 90;
+          state.angle += 270;
           $(elem).find('.doc,.doc_map img').rotate(state.angle);
           // center
           methods.resize($('.doc',elem),elem,state);
